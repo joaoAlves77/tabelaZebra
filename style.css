@@ -1,0 +1,14 @@
+*{
+    box-sizing: border-box;
+}
+table {
+    margin: auto;
+    width: 400px;
+    border: 1px solid black;
+}
+table thead {
+    background-color: #ccc;
+}
+tbody tr:nth-child(odd) {
+    background-color: #56ff95;
+}
